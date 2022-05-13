@@ -1,7 +1,7 @@
 ﻿
 namespace _PFE__Nurse_Management
 {
-    partial class Form1
+    partial class Locked
     {
         /// <summary>
         /// Required designer variable.
@@ -29,20 +29,14 @@ namespace _PFE__Nurse_Management
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.kryptonPalette2 = new Krypton.Toolkit.KryptonPalette(this.components);
             this.SuspendLayout();
             // 
-            // kryptonPalette2
-            // 
-            this.kryptonPalette2.BasePaletteMode = Krypton.Toolkit.PaletteMode.Office2007Blue;
-            // 
-            // Form1
+            // Locked
             // 
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(713, 431);
+            this.ClientSize = new System.Drawing.Size(749, 443);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "Locked";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.StateActive.Back.Color1 = System.Drawing.Color.White;
             this.StateActive.Back.Color2 = System.Drawing.Color.White;
@@ -57,9 +51,7 @@ namespace _PFE__Nurse_Management
         }
 
         #endregion
-        private Krypton.Toolkit.KryptonGroup kryptonGroup1;
-        private Krypton.Toolkit.KryptonPalette kryptonPalette1;
-        private Krypton.Toolkit.KryptonPalette kryptonPalette2;
+   
     }
 }
 

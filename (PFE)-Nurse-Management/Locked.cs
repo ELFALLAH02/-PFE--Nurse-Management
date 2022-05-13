@@ -11,9 +11,9 @@ using ComponentFactory.Krypton.Toolkit;
 
 namespace _PFE__Nurse_Management
 {
-    public partial class Form1 : KryptonForm
+    public partial class Locked : KryptonForm
     {
-        public Form1()
+        public Locked()
         {
             InitializeComponent();
         }

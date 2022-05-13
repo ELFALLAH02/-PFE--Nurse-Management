@@ -1,11 +1,6 @@
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\(PFE)-Nurse-Management.exe.config
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\(PFE)-Nurse-Management.exe
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\(PFE)-Nurse-Management.pdb
-C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\ComponentFactory.Krypton.Docking.dll
-C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\ComponentFactory.Krypton.Navigator.dll
-C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
-C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
-C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\ComponentFactory.Krypton.Workspace.dll
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\Guna.Charts.WinForms.dll
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\Guna.UI2.dll
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\Krypton.Toolkit.dll
@@ -18,10 +13,10 @@ C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\LiveCharts.pdb
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\LiveCharts.xml
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\(PFE)-Nurse-Management.csproj.AssemblyReference.cache
-C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\_PFE__Nurse_Management.Form1.resources
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\_PFE__Nurse_Management.Properties.Resources.resources
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\(PFE)-Nurse-Management.csproj.GenerateResource.cache
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\(PFE)-Nurse-Management.csproj.CoreCompileInputs.cache
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\(PFE)-Nurse-Management.csproj.CopyComplete
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\(PFE)-Nurse-Management.exe
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\(PFE)-Nurse-Management.pdb
+C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\_PFE__Nurse_Management.Locked.resources
