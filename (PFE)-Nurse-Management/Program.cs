@@ -16,7 +16,7 @@ namespace _PFE__Nurse_Management
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Locked());
+            Application.Run(new Dashboard());
         }
     }
 }
