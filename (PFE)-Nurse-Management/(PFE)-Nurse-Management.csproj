@@ -35,23 +35,23 @@
   <ItemGroup>
     <Reference Include="ComponentFactory.Krypton.Docking, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\krypton\ComponentFactory.Krypton.Docking.dll</HintPath>
+      <HintPath>..\packages\Krypton\ComponentFactory.Krypton.Docking.dll</HintPath>
     </Reference>
     <Reference Include="ComponentFactory.Krypton.Navigator, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\krypton\ComponentFactory.Krypton.Navigator.dll</HintPath>
+      <HintPath>..\packages\Krypton\ComponentFactory.Krypton.Navigator.dll</HintPath>
     </Reference>
     <Reference Include="ComponentFactory.Krypton.Ribbon, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\krypton\ComponentFactory.Krypton.Ribbon.dll</HintPath>
+      <HintPath>..\packages\Krypton\ComponentFactory.Krypton.Ribbon.dll</HintPath>
     </Reference>
     <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\krypton\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+      <HintPath>..\packages\Krypton\ComponentFactory.Krypton.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="ComponentFactory.Krypton.Workspace, Version=4.5.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\krypton\ComponentFactory.Krypton.Workspace.dll</HintPath>
+      <HintPath>..\packages\Krypton\ComponentFactory.Krypton.Workspace.dll</HintPath>
     </Reference>
     <Reference Include="Guna.Charts.WinForms, Version=1.0.3.0, Culture=neutral, PublicKeyToken=4cb9ae78886bbe24, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.Charts.WinForms.1.0.3\lib\net40\Guna.Charts.WinForms.dll</HintPath>
@@ -95,16 +95,61 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Infirmiér.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Add_Infirmiér.Designer.cs">
+      <DependentUpon>Add_Infirmiér.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Infirmiers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Infirmiers.Designer.cs">
+      <DependentUpon>Infirmiers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="infopresonnelles.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="infopresonnelles.Designer.cs">
+      <DependentUpon>infopresonnelles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Locked.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Locked.Designer.cs">
       <DependentUpon>Locked.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login_intreface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Login_intreface.Designer.cs">
+      <DependentUpon>Login_intreface.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add_Infirmiér.resx">
+      <DependentUpon>Add_Infirmiér.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infirmiers.resx">
+      <DependentUpon>Infirmiers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infopresonnelles.resx">
+      <DependentUpon>infopresonnelles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Locked.resx">
       <DependentUpon>Locked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_intreface.resx">
+      <DependentUpon>Login_intreface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -114,6 +159,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -128,6 +174,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beautiful-islamic-hd-wallpapers.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FHZQrWcXoA4HSqo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-closed-eye-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-20.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
