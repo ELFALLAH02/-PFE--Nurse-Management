@@ -19,6 +19,8 @@ namespace _PFE__Nurse_Management
 
         private void Login_intreface_Load(object sender, EventArgs e)
         {
+            guna2Shapes1.Visible = false;
+            button2.Visible = false;
 
         }
 
@@ -44,6 +46,40 @@ namespace _PFE__Nurse_Management
                 guna2TextBox1.PasswordChar = '•';
                 this.SendToBack();
                 eyeshow.BringToFront();
+            }
+        }
+
+        private void guna2Shapes1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kryptonLabel1_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            if (button1.CanSelect)
+            {
+                button2.Visible = true;
+                guna2Shapes1.Visible = true;
+                guna2Shapes1.Location = new Point(3, 98);
+                button2.Location = new Point(326, 124);
+
+                button1.Hide();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (button2.CanSelect) 
+            {
+                guna2Shapes1.Visible = false;
+                button2.Visible = false;
+                button1.Show();
+            
             }
         }
     }

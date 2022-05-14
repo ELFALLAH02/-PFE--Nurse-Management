@@ -29,23 +29,20 @@ namespace _PFE__Nurse_Management
         /// </summary>
         private void InitializeComponent()
         {
-            this.kryptonLabel1 = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+            this.components = new System.ComponentModel.Container();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.eyeshow = new Guna.UI2.WinForms.Guna2PictureBox();
             this.showeye = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2ShapesTool1 = new Guna.UI2.WinForms.Guna2ShapesTool(this.components);
+            this.guna2ShapesTool2 = new Guna.UI2.WinForms.Guna2ShapesTool(this.components);
+            this.guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.eyeshow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.showeye)).BeginInit();
             this.SuspendLayout();
-            // 
-            // kryptonLabel1
-            // 
-            this.kryptonLabel1.Location = new System.Drawing.Point(83, 216);
-            this.kryptonLabel1.Name = "kryptonLabel1";
-            this.kryptonLabel1.Size = new System.Drawing.Size(88, 20);
-            this.kryptonLabel1.TabIndex = 3;
-            this.kryptonLabel1.Values.Text = "kryptonLabel1";
             // 
             // guna2TextBox2
             // 
@@ -129,15 +126,72 @@ namespace _PFE__Nurse_Management
             this.showeye.TabStop = false;
             this.showeye.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
+            // guna2ShapesTool1
+            // 
+            this.guna2ShapesTool1.Location = new System.Drawing.Point(0, 0);
+            this.guna2ShapesTool1.PolygonSkip = 1;
+            this.guna2ShapesTool1.Rotate = 0F;
+            this.guna2ShapesTool1.Size = new System.Drawing.Size(200, 200);
+            this.guna2ShapesTool1.TargetControl = null;
+            // 
+            // guna2ShapesTool2
+            // 
+            this.guna2ShapesTool2.Location = new System.Drawing.Point(0, 0);
+            this.guna2ShapesTool2.PolygonSkip = 1;
+            this.guna2ShapesTool2.Rotate = 0F;
+            this.guna2ShapesTool2.Size = new System.Drawing.Size(200, 200);
+            this.guna2ShapesTool2.TargetControl = null;
+            // 
+            // guna2Shapes1
+            // 
+            this.guna2Shapes1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Shapes1.Location = new System.Drawing.Point(6, 328);
+            this.guna2Shapes1.Name = "guna2Shapes1";
+            this.guna2Shapes1.PolygonSkip = 1;
+            this.guna2Shapes1.Rotate = 0F;
+            this.guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded;
+            this.guna2Shapes1.Size = new System.Drawing.Size(454, 200);
+            this.guna2Shapes1.TabIndex = 55;
+            this.guna2Shapes1.Text = "guna2Shapes1";
+            this.guna2Shapes1.UseTransparentBackground = true;
+            this.guna2Shapes1.Zoom = 80;
+            this.guna2Shapes1.Click += new System.EventHandler(this.guna2Shapes1_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(80, 210);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 56;
+            this.button1.Text = "memleme";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(326, 356);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 57;
+            this.button2.Text = "memleme";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Login_intreface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.guna2Shapes1);
             this.Controls.Add(this.eyeshow);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.guna2TextBox2);
-            this.Controls.Add(this.kryptonLabel1);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.showeye);
             this.Name = "Login_intreface";
@@ -146,16 +200,19 @@ namespace _PFE__Nurse_Management
             ((System.ComponentModel.ISupportInitialize)(this.eyeshow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.showeye)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private ComponentFactory.Krypton.Toolkit.KryptonLabel kryptonLabel1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
         private Guna.UI2.WinForms.Guna2PictureBox eyeshow;
         private Guna.UI2.WinForms.Guna2PictureBox showeye;
+        private Guna.UI2.WinForms.Guna2ShapesTool guna2ShapesTool1;
+        private Guna.UI2.WinForms.Guna2ShapesTool guna2ShapesTool2;
+        private Guna.UI2.WinForms.Guna2Shapes guna2Shapes1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

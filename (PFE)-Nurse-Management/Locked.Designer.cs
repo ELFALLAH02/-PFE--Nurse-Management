@@ -65,7 +65,7 @@ namespace _PFE__Nurse_Management
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Locked";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.StateActive.Back.Color1 = System.Drawing.Color.White;
+            this.StateActive.Back.Color1 = System.Drawing.Color.WhiteSmoke;
             this.StateActive.Back.Color2 = System.Drawing.Color.White;
             this.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 

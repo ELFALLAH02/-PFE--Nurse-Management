@@ -57,13 +57,25 @@ namespace _PFE__Nurse_Management
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            panel1.Visible = true;
-            Add_Infirmiér infr = new Add_Infirmiér();
-            addUserControl(infr);
+            if (guna2GradientButton1.CanSelect)
+            {
+                //panel1.Size = new Size(832, 495);
+                //panel1.Location = new Point(212, 72);
+                panel1.Visible = true;
+                Add_Infirmiér infr = new Add_Infirmiér();
+                addUserControl(infr);
+            }
+            
+
 
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ShadowPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

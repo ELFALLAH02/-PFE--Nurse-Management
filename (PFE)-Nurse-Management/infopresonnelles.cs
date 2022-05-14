@@ -12,9 +12,35 @@ namespace _PFE__Nurse_Management
 {
     public partial class infopresonnelles : UserControl
     {
+       
         public infopresonnelles()
         {
             InitializeComponent();
+        }
+
+        private void infopresonnelles_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void guna2TextBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ComboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

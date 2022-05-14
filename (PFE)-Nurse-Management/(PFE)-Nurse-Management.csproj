@@ -101,6 +101,12 @@
     <Compile Include="Add_Infirmiér.Designer.cs">
       <DependentUpon>Add_Infirmiér.cs</DependentUpon>
     </Compile>
+    <Compile Include="Coordonnées.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Coordonnées.Designer.cs">
+      <DependentUpon>Coordonnées.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,12 @@
     <Compile Include="infopresonnelles.Designer.cs">
       <DependentUpon>infopresonnelles.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inscription.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inscription.Designer.cs">
+      <DependentUpon>Inscription.cs</DependentUpon>
+    </Compile>
     <Compile Include="Locked.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,8 +145,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scolarité.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scolarité.Designer.cs">
+      <DependentUpon>Scolarité.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Add_Infirmiér.resx">
       <DependentUpon>Add_Infirmiér.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coordonnées.resx">
+      <DependentUpon>Coordonnées.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
@@ -144,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="infopresonnelles.resx">
       <DependentUpon>infopresonnelles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inscription.resx">
+      <DependentUpon>Inscription.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Locked.resx">
       <DependentUpon>Locked.cs</DependentUpon>
@@ -161,6 +185,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Scolarité.resx">
+      <DependentUpon>Scolarité.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

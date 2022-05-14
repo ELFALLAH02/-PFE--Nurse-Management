@@ -42,6 +42,13 @@ namespace _PFE__Nurse_Management
         {
             Infirmiers inf_inter = new Infirmiers();
             addUserControl(inf_inter);
+
+        
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
