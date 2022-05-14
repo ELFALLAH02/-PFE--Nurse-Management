@@ -6,7 +6,6 @@ C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\LiveCharts.dll
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\MaterialSkin.dll
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\MetroFramework.dll
-C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\WinFormAnimation.dll
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\Krypton.Toolkit.xml
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\bin\Debug\LiveCharts.pdb

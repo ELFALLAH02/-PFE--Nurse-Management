@@ -34,17 +34,15 @@ namespace _PFE__Nurse_Management
             // Locked
             // 
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(749, 443);
+            this.ClientSize = new System.Drawing.Size(832, 495);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Locked";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.StateActive.Back.Color1 = System.Drawing.Color.White;
             this.StateActive.Back.Color2 = System.Drawing.Color.White;
-            this.StateActive.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.StateCommon.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.StateCommon.Border.Rounding = 15;
             this.ResumeLayout(false);
 
