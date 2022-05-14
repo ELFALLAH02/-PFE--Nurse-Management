@@ -67,6 +67,7 @@ namespace _PFE__Nurse_Management
                 guna2Shapes1.Visible = true;
                 guna2Shapes1.Location = new Point(3, 98);
                 button2.Location = new Point(326, 124);
+                guna2Shapes1.BackColor = Color.FromArgb(0, 158, 251);
 
                 button1.Hide();
             }
@@ -81,6 +82,11 @@ namespace _PFE__Nurse_Management
                 button1.Show();
             
             }
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

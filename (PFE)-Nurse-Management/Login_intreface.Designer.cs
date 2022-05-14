@@ -64,7 +64,7 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.Size = new System.Drawing.Size(270, 41);
-            this.guna2TextBox2.TabIndex = 50;
+            this.guna2TextBox2.TabIndex = 0;
             // 
             // guna2TextBox1
             // 
@@ -103,6 +103,7 @@ namespace _PFE__Nurse_Management
             this.guna2GradientButton1.Size = new System.Drawing.Size(270, 45);
             this.guna2GradientButton1.TabIndex = 52;
             this.guna2GradientButton1.Text = "Accèder";
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // eyeshow
             // 
@@ -161,11 +162,11 @@ namespace _PFE__Nurse_Management
             // 
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(80, 210);
+            this.button1.Location = new System.Drawing.Point(67, 200);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(142, 23);
             this.button1.TabIndex = 56;
-            this.button1.Text = "memleme";
+            this.button1.Text = "Mot de passe oublié?";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
