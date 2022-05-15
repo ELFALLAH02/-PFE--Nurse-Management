@@ -101,6 +101,7 @@
     <Compile Include="Add_Infirmiér.Designer.cs">
       <DependentUpon>Add_Infirmiér.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClassVrariables.cs" />
     <Compile Include="Coordonnées.cs">
       <SubType>UserControl</SubType>
     </Compile>
