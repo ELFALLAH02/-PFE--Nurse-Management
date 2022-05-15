@@ -12,5 +12,6 @@ namespace _PFE__Nurse_Management
         public static SqlConnection ctn = new SqlConnection("Data Source=.;Initial Catalog=Gestion_de_infirmier;Integrated Security=True");
         public static SqlCommand cmd;
         public static SqlDataAdapter da;
+        public static SqlCommandBuilder cb;
     }
 }
