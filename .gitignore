@@ -360,7 +360,7 @@ MigrationBackup/
 .ionide/
 
 # Fody - auto-generated XML schema
-FodyWeavers.
+FodyWeavers.xsd
 
 #ignore thumbnails created by windows
 Thumbs.db
