@@ -35,6 +35,7 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.kryptonCheckBox1 = new ComponentFactory.Krypton.Toolkit.KryptonCheckBox();
             this.SuspendLayout();
             // 
             // kryptonWrapLabel4
@@ -132,11 +133,21 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox1.Size = new System.Drawing.Size(340, 36);
             this.guna2TextBox1.TabIndex = 66;
             // 
+            // kryptonCheckBox1
+            // 
+            this.kryptonCheckBox1.Location = new System.Drawing.Point(740, 249);
+            this.kryptonCheckBox1.Name = "kryptonCheckBox1";
+            this.kryptonCheckBox1.Size = new System.Drawing.Size(61, 20);
+            this.kryptonCheckBox1.TabIndex = 89;
+            this.kryptonCheckBox1.Values.Text = "Valider";
+            this.kryptonCheckBox1.CheckedChanged += new System.EventHandler(this.kryptonCheckBox1_CheckedChanged);
+            // 
             // Coordonnées
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.kryptonCheckBox1);
             this.Controls.Add(this.kryptonWrapLabel4);
             this.Controls.Add(this.kryptonWrapLabel2);
             this.Controls.Add(this.kryptonWrapLabel1);
@@ -156,8 +167,9 @@ namespace _PFE__Nurse_Management
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel4;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel2;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckBox kryptonCheckBox1;
     }
 }
