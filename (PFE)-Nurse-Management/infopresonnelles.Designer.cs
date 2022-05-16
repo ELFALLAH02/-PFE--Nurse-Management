@@ -301,6 +301,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2DateTimePicker1
             // 
+            this.guna2DateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.guna2DateTimePicker1.Checked = true;
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
@@ -314,6 +315,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonCheckBox1
             // 
+            this.kryptonCheckBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonCheckBox1.Location = new System.Drawing.Point(740, 249);
             this.kryptonCheckBox1.Name = "kryptonCheckBox1";
             this.kryptonCheckBox1.Size = new System.Drawing.Size(61, 20);

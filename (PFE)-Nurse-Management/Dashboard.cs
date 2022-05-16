@@ -115,8 +115,8 @@ namespace _PFE__Nurse_Management
 
         private void guna2GradientButton9_Click(object sender, EventArgs e)
         {
-            Infirmiers inf_inter = new Infirmiers();
-            addUserControl(inf_inter);
+          Infirmiers inf_inter = new Infirmiers();
+          addUserControl(inf_inter);
         }
 
         private void guna2GradientButton2_Click_1(object sender, EventArgs e)
