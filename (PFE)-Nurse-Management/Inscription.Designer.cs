@@ -39,6 +39,7 @@ namespace _PFE__Nurse_Management
             this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.kryptonCheckBox1 = new ComponentFactory.Krypton.Toolkit.KryptonCheckBox();
             this.SuspendLayout();
             // 
             // kryptonWrapLabel6
@@ -103,7 +104,7 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox6.Location = new System.Drawing.Point(509, 132);
             this.guna2TextBox6.Name = "guna2TextBox6";
             this.guna2TextBox6.PasswordChar = '\0';
-            this.guna2TextBox6.PlaceholderText = "";
+            this.guna2TextBox6.PlaceholderText = "----/----";
             this.guna2TextBox6.SelectedText = "";
             this.guna2TextBox6.Size = new System.Drawing.Size(292, 36);
             this.guna2TextBox6.TabIndex = 65;
@@ -125,7 +126,7 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox2.Location = new System.Drawing.Point(509, 58);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
+            this.guna2TextBox2.PlaceholderText = "----/----";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.Size = new System.Drawing.Size(292, 36);
             this.guna2TextBox2.TabIndex = 62;
@@ -180,11 +181,21 @@ namespace _PFE__Nurse_Management
             this.guna2ComboBox2.TabIndex = 79;
             this.guna2ComboBox2.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox2_SelectedIndexChanged);
             // 
+            // kryptonCheckBox1
+            // 
+            this.kryptonCheckBox1.Location = new System.Drawing.Point(740, 249);
+            this.kryptonCheckBox1.Name = "kryptonCheckBox1";
+            this.kryptonCheckBox1.Size = new System.Drawing.Size(61, 20);
+            this.kryptonCheckBox1.TabIndex = 89;
+            this.kryptonCheckBox1.Values.Text = "Valider";
+            this.kryptonCheckBox1.CheckedChanged += new System.EventHandler(this.kryptonCheckBox1_CheckedChanged);
+            // 
             // Inscription
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.kryptonCheckBox1);
             this.Controls.Add(this.guna2ComboBox2);
             this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.guna2ComboBox3);
@@ -197,6 +208,7 @@ namespace _PFE__Nurse_Management
             this.Controls.Add(this.guna2TextBox2);
             this.Name = "Inscription";
             this.Size = new System.Drawing.Size(826, 276);
+            this.Load += new System.EventHandler(this.Inscription_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,10 +221,11 @@ namespace _PFE__Nurse_Management
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel4;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel2;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        public Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
+        public Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        public Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckBox kryptonCheckBox1;
     }
 }

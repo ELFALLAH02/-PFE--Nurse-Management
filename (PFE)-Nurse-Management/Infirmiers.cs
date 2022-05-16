@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace _PFE__Nurse_Management
 {
@@ -29,10 +30,55 @@ namespace _PFE__Nurse_Management
         {
             InitializeComponent();
         }
+        public void RemplierComFiliére()
+        {
+            ClassVrariables.cmd = new SqlCommand("select * from Filiére", ClassVrariables.ctn);
+            ClassVrariables.da = new SqlDataAdapter(ClassVrariables.cmd);
+            ClassVrariables.ds = new DataSet();
+            ClassVrariables.da.Fill(ClassVrariables.ds, "Filiére");
+            guna2ComboBox2.DataSource = ClassVrariables.ds.Tables["Filiére"];
+            guna2ComboBox2.DisplayMember = "Filiére_lable";
+            guna2ComboBox2.ValueMember = "idF";
+        }
 
+        public void RemplierComOption_Filiére()
+        {
+            ClassVrariables.cmd = new SqlCommand("select * from Option_Filiére", ClassVrariables.ctn);
+            ClassVrariables.da = new SqlDataAdapter(ClassVrariables.cmd);
+            ClassVrariables.ds = new DataSet();
+            ClassVrariables.da.Fill(ClassVrariables.ds, "Option_Filiére");
+            guna2ComboBox3.DataSource = ClassVrariables.ds.Tables["Option_Filiére"];
+            guna2ComboBox3.DisplayMember = "Option_lable";
+            guna2ComboBox3.ValueMember = "idO";
+        }
+
+        public void RemplierComSemestre()
+        {
+            ClassVrariables.cmd = new SqlCommand("select * from Semestre", ClassVrariables.ctn);
+            ClassVrariables.da = new SqlDataAdapter(ClassVrariables.cmd);
+            ClassVrariables.ds = new DataSet();
+            ClassVrariables.da.Fill(ClassVrariables.ds, "Semestre");
+            guna2ComboBox1.DataSource = ClassVrariables.ds.Tables["Semestre"];
+            guna2ComboBox1.DisplayMember = "S_label";
+            guna2ComboBox1.ValueMember = "idS";
+        }
+
+        public void RemplierDtagridVie()
+        {
+            ClassVrariables.cmd = new SqlCommand("select s.Nom,s.Prénom,s.CIN,s.Massar ,s.Ninscription as'N°Inscription'  from Coordonnées c inner join Infirmiers s on c.CIN=s.CIN inner join Scolarité sc on s.CIN=sc.CIN inner join Inscription i on i.CIN=s.CIN", ClassVrariables.ctn);
+            ClassVrariables.da = new SqlDataAdapter(ClassVrariables.cmd);
+            ClassVrariables.ds = new DataSet();
+            ClassVrariables.da.Fill(ClassVrariables.ds, "Infirmiers");
+            guna2DataGridView6.DataSource = ClassVrariables.ds.Tables["Infirmiers"];
+        }
         private void Infirmiers_Load(object sender, EventArgs e)
         {
+            RemplierComFiliére();
+            RemplierComOption_Filiére();
+            RemplierComSemestre();
             panel1.Visible = false;
+
+            RemplierDtagridVie();
         }
 
         private void label1_Click(object sender, EventArgs e)

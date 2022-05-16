@@ -37,6 +37,7 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.kryptonCheckBox1 = new ComponentFactory.Krypton.Toolkit.KryptonCheckBox();
             this.SuspendLayout();
             // 
             // kryptonWrapLabel6
@@ -54,8 +55,8 @@ namespace _PFE__Nurse_Management
             this.kryptonWrapLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel4.Location = new System.Drawing.Point(36, 148);
             this.kryptonWrapLabel4.Name = "kryptonWrapLabel4";
-            this.kryptonWrapLabel4.Size = new System.Drawing.Size(53, 15);
-            this.kryptonWrapLabel4.Text = "Option ::";
+            this.kryptonWrapLabel4.Size = new System.Drawing.Size(50, 15);
+            this.kryptonWrapLabel4.Text = "Option :";
             // 
             // kryptonWrapLabel2
             // 
@@ -96,6 +97,7 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox4.SelectedText = "";
             this.guna2TextBox4.Size = new System.Drawing.Size(345, 36);
             this.guna2TextBox4.TabIndex = 60;
+            this.guna2TextBox4.TextChanged += new System.EventHandler(this.guna2TextBox4_TextChanged);
             // 
             // guna2TextBox1
             // 
@@ -152,11 +154,21 @@ namespace _PFE__Nurse_Management
             this.guna2ComboBox1.TabIndex = 78;
             this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
+            // kryptonCheckBox1
+            // 
+            this.kryptonCheckBox1.Location = new System.Drawing.Point(740, 249);
+            this.kryptonCheckBox1.Name = "kryptonCheckBox1";
+            this.kryptonCheckBox1.Size = new System.Drawing.Size(61, 20);
+            this.kryptonCheckBox1.TabIndex = 89;
+            this.kryptonCheckBox1.Values.Text = "Valider";
+            this.kryptonCheckBox1.CheckedChanged += new System.EventHandler(this.kryptonCheckBox1_CheckedChanged);
+            // 
             // Scolarité
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.kryptonCheckBox1);
             this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.guna2ComboBox3);
             this.Controls.Add(this.kryptonWrapLabel6);
@@ -179,9 +191,10 @@ namespace _PFE__Nurse_Management
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel4;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel2;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        public Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
+        public Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckBox kryptonCheckBox1;
     }
 }

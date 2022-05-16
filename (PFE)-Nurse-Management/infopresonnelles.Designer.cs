@@ -39,7 +39,6 @@ namespace _PFE__Nurse_Management
             this.kryptonWrapLabel3 = new ComponentFactory.Krypton.Toolkit.KryptonWrapLabel();
             this.kryptonWrapLabel2 = new ComponentFactory.Krypton.Toolkit.KryptonWrapLabel();
             this.kryptonWrapLabel1 = new ComponentFactory.Krypton.Toolkit.KryptonWrapLabel();
-            this.guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -47,6 +46,8 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.kryptonCheckBox1 = new ComponentFactory.Krypton.Toolkit.KryptonCheckBox();
             this.SuspendLayout();
             // 
             // guna2Button2
@@ -64,6 +65,7 @@ namespace _PFE__Nurse_Management
             this.guna2Button2.Size = new System.Drawing.Size(200, 36);
             this.guna2Button2.TabIndex = 56;
             this.guna2Button2.Text = "Télécharger une image";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // kryptonWrapLabel9
             // 
@@ -145,28 +147,6 @@ namespace _PFE__Nurse_Management
             this.kryptonWrapLabel1.Name = "kryptonWrapLabel1";
             this.kryptonWrapLabel1.Size = new System.Drawing.Size(40, 15);
             this.kryptonWrapLabel1.Text = "Nom :";
-            // 
-            // guna2TextBox8
-            // 
-            this.guna2TextBox8.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.guna2TextBox8.Animated = true;
-            this.guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox8.DefaultText = "";
-            this.guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox8.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.Location = new System.Drawing.Point(600, 132);
-            this.guna2TextBox8.Name = "guna2TextBox8";
-            this.guna2TextBox8.PasswordChar = '\0';
-            this.guna2TextBox8.PlaceholderText = "";
-            this.guna2TextBox8.SelectedText = "";
-            this.guna2TextBox8.Size = new System.Drawing.Size(200, 36);
-            this.guna2TextBox8.TabIndex = 55;
             // 
             // guna2TextBox6
             // 
@@ -310,12 +290,36 @@ namespace _PFE__Nurse_Management
             this.guna2ComboBox1.TabIndex = 77;
             this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
+            // guna2DateTimePicker1
+            // 
+            this.guna2DateTimePicker1.Checked = true;
+            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(601, 132);
+            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(200, 36);
+            this.guna2DateTimePicker1.TabIndex = 87;
+            this.guna2DateTimePicker1.Value = new System.DateTime(2022, 5, 15, 19, 13, 54, 996);
+            // 
+            // kryptonCheckBox1
+            // 
+            this.kryptonCheckBox1.Location = new System.Drawing.Point(740, 249);
+            this.kryptonCheckBox1.Name = "kryptonCheckBox1";
+            this.kryptonCheckBox1.Size = new System.Drawing.Size(61, 20);
+            this.kryptonCheckBox1.TabIndex = 88;
+            this.kryptonCheckBox1.Values.Text = "Valider";
+            this.kryptonCheckBox1.CheckedChanged += new System.EventHandler(this.kryptonCheckBox1_CheckedChanged);
+            // 
             // infopresonnelles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.kryptonCheckBox1);
+            this.Controls.Add(this.guna2DateTimePicker1);
             this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.guna2ComboBox3);
             this.Controls.Add(this.guna2Button2);
@@ -328,7 +332,6 @@ namespace _PFE__Nurse_Management
             this.Controls.Add(this.kryptonWrapLabel3);
             this.Controls.Add(this.kryptonWrapLabel2);
             this.Controls.Add(this.kryptonWrapLabel1);
-            this.Controls.Add(this.guna2TextBox8);
             this.Controls.Add(this.guna2TextBox6);
             this.Controls.Add(this.guna2TextBox4);
             this.Controls.Add(this.guna2TextBox3);
@@ -343,8 +346,6 @@ namespace _PFE__Nurse_Management
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel9;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel8;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel7;
@@ -354,13 +355,15 @@ namespace _PFE__Nurse_Management
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel3;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel2;
         private ComponentFactory.Krypton.Toolkit.KryptonWrapLabel kryptonWrapLabel1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox8;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        public Guna.UI2.WinForms.Guna2Button guna2Button2;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        public Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
+        public Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        public Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        public ComponentFactory.Krypton.Toolkit.KryptonCheckBox kryptonCheckBox1;
     }
 }

@@ -33,15 +33,13 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.eyeshow = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.showeye = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ShapesTool1 = new Guna.UI2.WinForms.Guna2ShapesTool(this.components);
             this.guna2ShapesTool2 = new Guna.UI2.WinForms.Guna2ShapesTool(this.components);
             this.guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.eyeshow)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.showeye)).BeginInit();
+            this.showeye = new System.Windows.Forms.Button();
+            this.eyeshow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // guna2TextBox2
@@ -57,7 +55,7 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.guna2TextBox2.Location = new System.Drawing.Point(83, 67);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
@@ -65,6 +63,7 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.Size = new System.Drawing.Size(270, 41);
             this.guna2TextBox2.TabIndex = 0;
+            this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             // 
             // guna2TextBox1
             // 
@@ -79,15 +78,15 @@ namespace _PFE__Nurse_Management
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(83, 153);
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox1.Location = new System.Drawing.Point(83, 135);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '●';
-            this.guna2TextBox1.PlaceholderText = "";
+            this.guna2TextBox1.PlaceholderText = "●●●●●●●●";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(270, 41);
             this.guna2TextBox1.TabIndex = 51;
-            this.guna2TextBox1.UseSystemPasswordChar = true;
+            this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // guna2GradientButton1
             // 
@@ -104,28 +103,6 @@ namespace _PFE__Nurse_Management
             this.guna2GradientButton1.TabIndex = 52;
             this.guna2GradientButton1.Text = "Accèder";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
-            // 
-            // eyeshow
-            // 
-            this.eyeshow.Image = global::_PFE__Nurse_Management.Properties.Resources.icons8_closed_eye_20;
-            this.eyeshow.ImageRotate = 0F;
-            this.eyeshow.Location = new System.Drawing.Point(326, 164);
-            this.eyeshow.Name = "eyeshow";
-            this.eyeshow.Size = new System.Drawing.Size(21, 23);
-            this.eyeshow.TabIndex = 53;
-            this.eyeshow.TabStop = false;
-            this.eyeshow.Click += new System.EventHandler(this.guna2PictureBox1_Click);
-            // 
-            // showeye
-            // 
-            this.showeye.Image = global::_PFE__Nurse_Management.Properties.Resources.icons8_eye_20;
-            this.showeye.ImageRotate = 0F;
-            this.showeye.Location = new System.Drawing.Point(325, 162);
-            this.showeye.Name = "showeye";
-            this.showeye.Size = new System.Drawing.Size(21, 23);
-            this.showeye.TabIndex = 54;
-            this.showeye.TabStop = false;
-            this.showeye.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
             // guna2ShapesTool1
             // 
@@ -182,24 +159,48 @@ namespace _PFE__Nurse_Management
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // showeye
+            // 
+            this.showeye.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.showeye.FlatAppearance.BorderSize = 0;
+            this.showeye.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.showeye.Image = global::_PFE__Nurse_Management.Properties.Resources.icons8_eye_20;
+            this.showeye.Location = new System.Drawing.Point(319, 143);
+            this.showeye.Name = "showeye";
+            this.showeye.Size = new System.Drawing.Size(26, 23);
+            this.showeye.TabIndex = 58;
+            this.showeye.UseVisualStyleBackColor = true;
+            this.showeye.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // eyeshow
+            // 
+            this.eyeshow.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.eyeshow.FlatAppearance.BorderSize = 0;
+            this.eyeshow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eyeshow.Image = global::_PFE__Nurse_Management.Properties.Resources.icons8_closed_eye_20;
+            this.eyeshow.Location = new System.Drawing.Point(319, 143);
+            this.eyeshow.Name = "eyeshow";
+            this.eyeshow.Size = new System.Drawing.Size(26, 23);
+            this.eyeshow.TabIndex = 59;
+            this.eyeshow.UseVisualStyleBackColor = true;
+            this.eyeshow.Click += new System.EventHandler(this.eyeshow_Click);
+            // 
             // Login_intreface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.showeye);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.guna2Shapes1);
-            this.Controls.Add(this.eyeshow);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.guna2TextBox1);
-            this.Controls.Add(this.showeye);
+            this.Controls.Add(this.eyeshow);
             this.Name = "Login_intreface";
             this.Size = new System.Drawing.Size(460, 419);
             this.Load += new System.EventHandler(this.Login_intreface_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.eyeshow)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.showeye)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -208,12 +209,12 @@ namespace _PFE__Nurse_Management
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
-        private Guna.UI2.WinForms.Guna2PictureBox eyeshow;
-        private Guna.UI2.WinForms.Guna2PictureBox showeye;
         private Guna.UI2.WinForms.Guna2ShapesTool guna2ShapesTool1;
         private Guna.UI2.WinForms.Guna2ShapesTool guna2ShapesTool2;
         private Guna.UI2.WinForms.Guna2Shapes guna2Shapes1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button showeye;
+        private System.Windows.Forms.Button eyeshow;
     }
 }
