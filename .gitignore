@@ -1,2 +1,5 @@
 
 .vs/(PFE)-Nurse-Management/v16/.suo
+*.pdb
+*.cache
+*.csproj
