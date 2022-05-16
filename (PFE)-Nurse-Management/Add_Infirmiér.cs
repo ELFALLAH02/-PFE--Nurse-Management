@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace _PFE__Nurse_Management
 {
@@ -51,6 +52,9 @@ namespace _PFE__Nurse_Management
             suivant_2.Visible = false;
             infopresonnelles infoprs = new infopresonnelles();
             addUserControl(infoprs);
+
+            //Rempler le dataSet
+
         }
 
         private void guna2TextBox9_TextChanged(object sender, EventArgs e)
@@ -71,13 +75,16 @@ namespace _PFE__Nurse_Management
                     // ...
                 }
             }
-           
+
         }
 
-        
+
 
         private void guna2GradientButton1_Click_1(object sender, EventArgs e)
         {
+
+
+          
             if (suivant_1.CanSelect)
             {
 
@@ -87,19 +94,24 @@ namespace _PFE__Nurse_Management
                 suivant_1.Visible = false;
                 Sauvegarder.Visible = false;
                 Précédent_1.Visible = true;
-                guna2Shapes1.FillColor= Color.FromArgb(0, 158, 251);
+                guna2Shapes1.FillColor = Color.FromArgb(0, 158, 251);
                 guna2Shapes6.FillColor = Color.FromArgb(0, 158, 251);
                 label5.BackColor = Color.FromArgb(0, 158, 251);
                 label5.ForeColor = Color.FromArgb(255, 255, 255);
                 /*
                 label8.ForeColor = Color.FromArgb(0, 158, 251);
                 */
-               
 
                 guna2Shapes5.BorderColor = Color.FromArgb(0, 158, 251);
-                
+
+                ///////////////////////////////
+
+               
+        
+               
 
             }
+            
 
         }
 
@@ -107,6 +119,8 @@ namespace _PFE__Nurse_Management
         {
             if (suivant_2.CanSelect)
             {
+
+
                 Scolarité sco = new Scolarité();
                 addUserControl(sco);
                 Précédent_1.Visible = false;
@@ -122,6 +136,10 @@ namespace _PFE__Nurse_Management
                 label7.ForeColor = Color.FromArgb(0, 158, 251);
 
                 guna2Shapes4.BorderColor = Color.FromArgb(0, 158, 251);
+
+
+               
+
             }
 
         }
@@ -140,7 +158,7 @@ namespace _PFE__Nurse_Management
                 suivant_1.Visible = true;
                 Sauvegarder.Visible = false;
                 //////////////////////
-                guna2Shapes1.FillColor = Color.FromArgb(255,255, 255);
+                guna2Shapes1.FillColor = Color.FromArgb(255, 255, 255);
                 guna2Shapes6.FillColor = Color.FromArgb(224, 224, 224);
                 label5.BackColor = Color.FromArgb(255, 255, 255);
                 label5.ForeColor = Color.FromArgb(0, 158, 251);
@@ -150,8 +168,8 @@ namespace _PFE__Nurse_Management
                 label8.BackColor = Color.FromArgb(0, 158, 251);
                 label8.ForeColor = Color.FromArgb(255, 255, 255);
                 guna2Shapes5.ForeColor = Color.FromArgb(0, 158, 251);
-                
-                
+
+
 
             }
 
@@ -179,7 +197,7 @@ namespace _PFE__Nurse_Management
                 guna2Shapes5.BackColor = Color.FromArgb(255, 255, 255);
                 guna2Shapes5.FillColor = Color.FromArgb(255, 255, 255);
 
-                label8.ForeColor= Color.FromArgb(0, 158, 251);
+                label8.ForeColor = Color.FromArgb(0, 158, 251);
                 label8.BackColor = Color.FromArgb(255, 255, 255);
 
 
@@ -234,14 +252,28 @@ namespace _PFE__Nurse_Management
                 /////
                 label7.BackColor = Color.FromArgb(0, 158, 251);
                 label7.ForeColor = Color.FromArgb(255, 255, 255);
+
+
+;
+
+
+
             }
+
+
+
+
         }
+    
 
         private void Sauvegarder_Click(object sender, EventArgs e)
         {
             guna2Shapes3.FillColor = Color.FromArgb(0, 158, 251);
             label6.BackColor = Color.FromArgb(0, 158, 251);
             label6.ForeColor = Color.FromArgb(255, 255, 255);
+
+            //////////////////////////////////////////
+            MessageBox.Show("Bien Ajoute ");
         }
 
         private void guna2Shapes7_Click(object sender, EventArgs e)
