@@ -39,11 +39,14 @@ namespace _PFE__Nurse_Management
             this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.kryptonPalette1 = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.closedrop = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.opendrop = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.closesidebar = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2GradientButton8 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton11 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -51,31 +54,68 @@ namespace _PFE__Nurse_Management
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton7 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton9 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.closedrop = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.opendrop = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.closesidebar = new Guna.UI2.WinForms.Guna2CircleButton();
             guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.guna2ShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.guna2ShadowPanel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // guna2CircleButton1
+            // 
+            guna2CircleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.BorderColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            guna2CircleButton1.CheckedState.BorderColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            guna2CircleButton1.FillColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            guna2CircleButton1.ForeColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.HoverState.FillColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.HoverState.ForeColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.Image = global::_PFE__Nurse_Management.Properties.Resources.avater;
+            guna2CircleButton1.ImageSize = new System.Drawing.Size(70, 68);
+            guna2CircleButton1.Location = new System.Drawing.Point(468, 3);
+            guna2CircleButton1.Name = "guna2CircleButton1";
+            guna2CircleButton1.PressedColor = System.Drawing.Color.Transparent;
+            guna2CircleButton1.PressedDepth = 0;
+            guna2CircleButton1.ShadowDecoration.BorderRadius = 0;
+            guna2CircleButton1.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            guna2CircleButton1.ShadowDecoration.CustomizableEdges.BottomLeft = false;
+            guna2CircleButton1.ShadowDecoration.CustomizableEdges.BottomRight = false;
+            guna2CircleButton1.ShadowDecoration.CustomizableEdges.TopLeft = false;
+            guna2CircleButton1.ShadowDecoration.CustomizableEdges.TopRight = false;
+            guna2CircleButton1.ShadowDecoration.Depth = 0;
+            guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            guna2CircleButton1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0);
+            guna2CircleButton1.Size = new System.Drawing.Size(60, 60);
+            guna2CircleButton1.TabIndex = 1;
+            guna2CircleButton1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit;
+            guna2CircleButton1.UseTransparentBackground = true;
+            guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
             // materialLabel1
             // 
             this.materialLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel1.Location = new System.Drawing.Point(545, 24);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(158, 18);
+            this.materialLabel1.Size = new System.Drawing.Size(156, 19);
             this.materialLabel1.TabIndex = 0;
             this.materialLabel1.Text = "OUSSAMA ELFALLAH";
             // 
@@ -98,9 +138,9 @@ namespace _PFE__Nurse_Management
             this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel1.Controls.Add(this.panel4);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(930, 15);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(791, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(28, 24);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(167, 200);
             this.flowLayoutPanel1.TabIndex = 14;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
@@ -263,6 +303,17 @@ namespace _PFE__Nurse_Management
             this.guna2GradientButton4.UseTransparentBackground = true;
             this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::_PFE__Nurse_Management.Properties.Resources.Group_1__3_;
+            this.pictureBox2.Location = new System.Drawing.Point(8, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(149, 184);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // kryptonPalette1
             // 
             this.kryptonPalette1.ButtonSpecs.FormClose.AllowInheritExtraText = false;
@@ -326,6 +377,87 @@ namespace _PFE__Nurse_Management
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // closedrop
+            // 
+            this.closedrop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.closedrop.BackColor = System.Drawing.Color.Transparent;
+            this.closedrop.BorderColor = System.Drawing.Color.Transparent;
+            this.closedrop.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.closedrop.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.closedrop.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.closedrop.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.closedrop.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.closedrop.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
+            this.closedrop.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
+            this.closedrop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.closedrop.ForeColor = System.Drawing.Color.White;
+            this.closedrop.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.closedrop.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.closedrop.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.closedrop.HoverState.FillColor2 = System.Drawing.Color.Transparent;
+            this.closedrop.HoverState.ForeColor = System.Drawing.Color.Transparent;
+            this.closedrop.Image = global::_PFE__Nurse_Management.Properties.Resources.icons8_expand_i50;
+            this.closedrop.ImageSize = new System.Drawing.Size(25, 25);
+            this.closedrop.Location = new System.Drawing.Point(702, 14);
+            this.closedrop.Name = "closedrop";
+            this.closedrop.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.closedrop.PressedDepth = 0;
+            this.closedrop.ShadowDecoration.Color = System.Drawing.Color.Aquamarine;
+            this.closedrop.ShadowDecoration.Depth = 10;
+            this.closedrop.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0);
+            this.closedrop.Size = new System.Drawing.Size(28, 43);
+            this.closedrop.TabIndex = 2;
+            this.closedrop.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.closedrop.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
+            this.closedrop.UseTransparentBackground = true;
+            this.closedrop.Click += new System.EventHandler(this.closedrop_Click_1);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::_PFE__Nurse_Management.Properties.Resources.Ellipse_1__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(448, -19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // opendrop
+            // 
+            this.opendrop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.opendrop.BackColor = System.Drawing.Color.Transparent;
+            this.opendrop.BorderColor = System.Drawing.Color.Transparent;
+            this.opendrop.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.opendrop.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.opendrop.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.opendrop.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.opendrop.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.opendrop.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
+            this.opendrop.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
+            this.opendrop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.opendrop.ForeColor = System.Drawing.Color.White;
+            this.opendrop.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.opendrop.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.opendrop.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.opendrop.HoverState.FillColor2 = System.Drawing.Color.Transparent;
+            this.opendrop.HoverState.ForeColor = System.Drawing.Color.Transparent;
+            this.opendrop.Image = global::_PFE__Nurse_Management.Properties.Resources.icons8_expand_arrow_50;
+            this.opendrop.ImageSize = new System.Drawing.Size(25, 25);
+            this.opendrop.Location = new System.Drawing.Point(702, 14);
+            this.opendrop.Name = "opendrop";
+            this.opendrop.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.opendrop.PressedDepth = 0;
+            this.opendrop.ShadowDecoration.Color = System.Drawing.Color.Aquamarine;
+            this.opendrop.ShadowDecoration.Depth = 10;
+            this.opendrop.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0);
+            this.opendrop.Size = new System.Drawing.Size(28, 43);
+            this.opendrop.TabIndex = 1;
+            this.opendrop.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.opendrop.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
+            this.opendrop.UseTransparentBackground = true;
+            this.opendrop.Click += new System.EventHandler(this.guna2GradientButton2_Click_2);
+            // 
             // guna2ShadowPanel1
             // 
             this.guna2ShadowPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -349,30 +481,6 @@ namespace _PFE__Nurse_Management
             this.guna2ShadowPanel1.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.Dropped;
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(87, 659);
             this.guna2ShadowPanel1.TabIndex = 0;
-            // 
-            // closesidebar
-            // 
-            this.closesidebar.Animated = true;
-            this.closesidebar.BackColor = System.Drawing.Color.Transparent;
-            this.closesidebar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.closesidebar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.closesidebar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.closesidebar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.closesidebar.FillColor = System.Drawing.Color.Transparent;
-            this.closesidebar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.closesidebar.ForeColor = System.Drawing.Color.Transparent;
-            this.closesidebar.Image = global::_PFE__Nurse_Management.Properties.Resources.icons8_back_32;
-            this.closesidebar.ImageSize = new System.Drawing.Size(40, 40);
-            this.closesidebar.IndicateFocus = true;
-            this.closesidebar.Location = new System.Drawing.Point(175, 12);
-            this.closesidebar.Name = "closesidebar";
-            this.closesidebar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.closesidebar.Size = new System.Drawing.Size(45, 40);
-            this.closesidebar.TabIndex = 0;
-            this.closesidebar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.closesidebar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
-            this.closesidebar.UseTransparentBackground = true;
-            this.closesidebar.Click += new System.EventHandler(this.closesidebar_Click);
             // 
             // guna2GradientButton8
             // 
@@ -561,138 +669,29 @@ namespace _PFE__Nurse_Management
             this.guna2GradientButton9.UseTransparentBackground = true;
             this.guna2GradientButton9.Click += new System.EventHandler(this.guna2GradientButton9_Click);
             // 
-            // pictureBox2
+            // closesidebar
             // 
-            this.pictureBox2.Image = global::_PFE__Nurse_Management.Properties.Resources.Group_1__3_;
-            this.pictureBox2.Location = new System.Drawing.Point(8, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(149, 184);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // closedrop
-            // 
-            this.closedrop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.closedrop.BackColor = System.Drawing.Color.Transparent;
-            this.closedrop.BorderColor = System.Drawing.Color.Transparent;
-            this.closedrop.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.closedrop.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.closedrop.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.closedrop.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.closedrop.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.closedrop.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.closedrop.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.closedrop.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.closedrop.ForeColor = System.Drawing.Color.White;
-            this.closedrop.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.closedrop.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.closedrop.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.closedrop.HoverState.FillColor2 = System.Drawing.Color.Transparent;
-            this.closedrop.HoverState.ForeColor = System.Drawing.Color.Transparent;
-            this.closedrop.Image = global::_PFE__Nurse_Management.Properties.Resources.icons8_expand_i50;
-            this.closedrop.ImageSize = new System.Drawing.Size(25, 25);
-            this.closedrop.Location = new System.Drawing.Point(702, 14);
-            this.closedrop.Name = "closedrop";
-            this.closedrop.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.closedrop.PressedDepth = 0;
-            this.closedrop.ShadowDecoration.Color = System.Drawing.Color.Aquamarine;
-            this.closedrop.ShadowDecoration.Depth = 10;
-            this.closedrop.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0);
-            this.closedrop.Size = new System.Drawing.Size(28, 43);
-            this.closedrop.TabIndex = 2;
-            this.closedrop.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.closedrop.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
-            this.closedrop.UseTransparentBackground = true;
-            this.closedrop.Click += new System.EventHandler(this.closedrop_Click_1);
-            // 
-            // guna2CircleButton1
-            // 
-            guna2CircleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.BorderColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            guna2CircleButton1.CheckedState.BorderColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.CheckedState.CustomBorderColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            guna2CircleButton1.FillColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            guna2CircleButton1.ForeColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.HoverState.FillColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.HoverState.ForeColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.Image = global::_PFE__Nurse_Management.Properties.Resources.avater;
-            guna2CircleButton1.ImageSize = new System.Drawing.Size(70, 68);
-            guna2CircleButton1.Location = new System.Drawing.Point(468, 3);
-            guna2CircleButton1.Name = "guna2CircleButton1";
-            guna2CircleButton1.PressedColor = System.Drawing.Color.Transparent;
-            guna2CircleButton1.PressedDepth = 0;
-            guna2CircleButton1.ShadowDecoration.BorderRadius = 0;
-            guna2CircleButton1.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            guna2CircleButton1.ShadowDecoration.CustomizableEdges.BottomLeft = false;
-            guna2CircleButton1.ShadowDecoration.CustomizableEdges.BottomRight = false;
-            guna2CircleButton1.ShadowDecoration.CustomizableEdges.TopLeft = false;
-            guna2CircleButton1.ShadowDecoration.CustomizableEdges.TopRight = false;
-            guna2CircleButton1.ShadowDecoration.Depth = 0;
-            guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            guna2CircleButton1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0);
-            guna2CircleButton1.Size = new System.Drawing.Size(60, 60);
-            guna2CircleButton1.TabIndex = 1;
-            guna2CircleButton1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit;
-            guna2CircleButton1.UseTransparentBackground = true;
-            guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::_PFE__Nurse_Management.Properties.Resources.Ellipse_1__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(448, -19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 94);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // opendrop
-            // 
-            this.opendrop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.opendrop.BackColor = System.Drawing.Color.Transparent;
-            this.opendrop.BorderColor = System.Drawing.Color.Transparent;
-            this.opendrop.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.opendrop.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.opendrop.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.opendrop.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.opendrop.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.opendrop.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.opendrop.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.opendrop.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.opendrop.ForeColor = System.Drawing.Color.White;
-            this.opendrop.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.opendrop.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.opendrop.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.opendrop.HoverState.FillColor2 = System.Drawing.Color.Transparent;
-            this.opendrop.HoverState.ForeColor = System.Drawing.Color.Transparent;
-            this.opendrop.Image = global::_PFE__Nurse_Management.Properties.Resources.icons8_expand_arrow_50;
-            this.opendrop.ImageSize = new System.Drawing.Size(25, 25);
-            this.opendrop.Location = new System.Drawing.Point(702, 14);
-            this.opendrop.Name = "opendrop";
-            this.opendrop.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.opendrop.PressedDepth = 0;
-            this.opendrop.ShadowDecoration.Color = System.Drawing.Color.Aquamarine;
-            this.opendrop.ShadowDecoration.Depth = 10;
-            this.opendrop.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0);
-            this.opendrop.Size = new System.Drawing.Size(28, 43);
-            this.opendrop.TabIndex = 1;
-            this.opendrop.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.opendrop.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
-            this.opendrop.UseTransparentBackground = true;
-            this.opendrop.Click += new System.EventHandler(this.guna2GradientButton2_Click_2);
+            this.closesidebar.Animated = true;
+            this.closesidebar.BackColor = System.Drawing.Color.Transparent;
+            this.closesidebar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.closesidebar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.closesidebar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.closesidebar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.closesidebar.FillColor = System.Drawing.Color.Transparent;
+            this.closesidebar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.closesidebar.ForeColor = System.Drawing.Color.Transparent;
+            this.closesidebar.Image = global::_PFE__Nurse_Management.Properties.Resources.icons8_back_32;
+            this.closesidebar.ImageSize = new System.Drawing.Size(40, 40);
+            this.closesidebar.IndicateFocus = true;
+            this.closesidebar.Location = new System.Drawing.Point(175, 12);
+            this.closesidebar.Name = "closesidebar";
+            this.closesidebar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.closesidebar.Size = new System.Drawing.Size(45, 40);
+            this.closesidebar.TabIndex = 0;
+            this.closesidebar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.closesidebar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
+            this.closesidebar.UseTransparentBackground = true;
+            this.closesidebar.Click += new System.EventHandler(this.closesidebar_Click);
             // 
             // Dashboard
             // 
@@ -761,11 +760,11 @@ namespace _PFE__Nurse_Management
             this.panel2.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.guna2ShadowPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.guna2ShadowPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

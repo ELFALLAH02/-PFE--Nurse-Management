@@ -136,7 +136,7 @@ namespace _PFE__Nurse_Management
         {
             opendrop.Hide();
             closedrop.Show();
-            flowLayoutPanel1.Location = new Point(793, 1);
+            //flowLayoutPanel1.Location = new Point(793, 1);
           
 
 
