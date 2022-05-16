@@ -26,5 +26,10 @@ namespace _PFE__Nurse_Management
         {
 
         }
+
+        private void Inscription_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

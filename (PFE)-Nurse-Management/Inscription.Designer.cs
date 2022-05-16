@@ -201,6 +201,7 @@ namespace _PFE__Nurse_Management
             this.Controls.Add(this.guna2TextBox2);
             this.Name = "Inscription";
             this.Size = new System.Drawing.Size(826, 276);
+            this.Load += new System.EventHandler(this.Inscription_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
