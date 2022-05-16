@@ -58,7 +58,8 @@ namespace _PFE__Nurse_Management
             // 
             // guna2Shapes2
             // 
-            this.guna2Shapes2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.guna2Shapes2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Shapes2.BackColor = System.Drawing.Color.Transparent;
             this.guna2Shapes2.BorderColor = System.Drawing.Color.Silver;
@@ -79,6 +80,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2Shapes1
             // 
+            this.guna2Shapes1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2Shapes1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(158)))), ((int)(((byte)(251)))));
             this.guna2Shapes1.BorderThickness = 3;
             this.guna2Shapes1.FillColor = System.Drawing.Color.White;
@@ -95,6 +97,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2Shapes3
             // 
+            this.guna2Shapes3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2Shapes3.BackColor = System.Drawing.Color.Transparent;
             this.guna2Shapes3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Shapes3.BorderThickness = 3;
@@ -112,6 +115,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2Shapes4
             // 
+            this.guna2Shapes4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2Shapes4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Shapes4.BorderThickness = 3;
             this.guna2Shapes4.FillColor = System.Drawing.Color.White;
@@ -127,6 +131,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2Shapes5
             // 
+            this.guna2Shapes5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2Shapes5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Shapes5.BorderThickness = 3;
             this.guna2Shapes5.FillColor = System.Drawing.Color.White;
@@ -142,6 +147,7 @@ namespace _PFE__Nurse_Management
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(69, 145);
             this.label1.Name = "label1";
@@ -151,6 +157,7 @@ namespace _PFE__Nurse_Management
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(472, 145);
             this.label2.Name = "label2";
@@ -160,6 +167,7 @@ namespace _PFE__Nurse_Management
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(270, 145);
             this.label3.Name = "label3";
@@ -169,6 +177,7 @@ namespace _PFE__Nurse_Management
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(661, 145);
             this.label4.Name = "label4";
@@ -182,7 +191,9 @@ namespace _PFE__Nurse_Management
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Location = new System.Drawing.Point(3, 170);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(826, 276);
@@ -191,6 +202,7 @@ namespace _PFE__Nurse_Management
             // 
             // suivant_1
             // 
+            this.suivant_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.suivant_1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.suivant_1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.suivant_1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -207,6 +219,7 @@ namespace _PFE__Nurse_Management
             // 
             // Précédent_1
             // 
+            this.Précédent_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Précédent_1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.Précédent_1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.Précédent_1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -223,6 +236,7 @@ namespace _PFE__Nurse_Management
             // 
             // suivant_2
             // 
+            this.suivant_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.suivant_2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.suivant_2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.suivant_2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -239,6 +253,7 @@ namespace _PFE__Nurse_Management
             // 
             // Précédent_2
             // 
+            this.Précédent_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Précédent_2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.Précédent_2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.Précédent_2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -255,6 +270,7 @@ namespace _PFE__Nurse_Management
             // 
             // Précédent_3
             // 
+            this.Précédent_3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Précédent_3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.Précédent_3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.Précédent_3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -271,6 +287,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2Shapes6
             // 
+            this.guna2Shapes6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2Shapes6.BackColor = System.Drawing.Color.Transparent;
             this.guna2Shapes6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Shapes6.LineThickness = 3;
@@ -288,6 +305,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2Shapes7
             // 
+            this.guna2Shapes7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2Shapes7.BackColor = System.Drawing.Color.Transparent;
             this.guna2Shapes7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Shapes7.LineThickness = 3;
@@ -301,9 +319,11 @@ namespace _PFE__Nurse_Management
             this.guna2Shapes7.Text = "guna2Shapes7";
             this.guna2Shapes7.UseTransparentBackground = true;
             this.guna2Shapes7.Zoom = 100;
+            this.guna2Shapes7.Click += new System.EventHandler(this.guna2Shapes7_Click);
             // 
             // guna2Shapes8
             // 
+            this.guna2Shapes8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2Shapes8.BackColor = System.Drawing.Color.Transparent;
             this.guna2Shapes8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Shapes8.LineThickness = 3;
@@ -320,6 +340,7 @@ namespace _PFE__Nurse_Management
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(158)))), ((int)(((byte)(251)))));
@@ -332,6 +353,7 @@ namespace _PFE__Nurse_Management
             // 
             // suivant_3
             // 
+            this.suivant_3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.suivant_3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.suivant_3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.suivant_3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -348,6 +370,7 @@ namespace _PFE__Nurse_Management
             // 
             // Sauvegarder
             // 
+            this.Sauvegarder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Sauvegarder.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.Sauvegarder.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.Sauvegarder.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -364,6 +387,7 @@ namespace _PFE__Nurse_Management
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -376,6 +400,7 @@ namespace _PFE__Nurse_Management
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -388,6 +413,7 @@ namespace _PFE__Nurse_Management
             // 
             // label8
             // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -404,18 +430,18 @@ namespace _PFE__Nurse_Management
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.suivant_2);
+            this.Controls.Add(this.suivant_3);
             this.Controls.Add(this.Sauvegarder);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.Précédent_1);
             this.Controls.Add(this.Précédent_3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.Précédent_2);
-            this.Controls.Add(this.suivant_3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.guna2Shapes8);
             this.Controls.Add(this.guna2Shapes7);
-            this.Controls.Add(this.suivant_2);
             this.Controls.Add(this.guna2Shapes6);
             this.Controls.Add(this.suivant_1);
             this.Controls.Add(this.panel1);

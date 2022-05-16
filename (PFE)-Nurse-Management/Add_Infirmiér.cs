@@ -275,5 +275,10 @@ namespace _PFE__Nurse_Management
             //////////////////////////////////////////
             MessageBox.Show("Bien Ajoute ");
         }
+
+        private void guna2Shapes7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
