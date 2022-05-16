@@ -152,6 +152,12 @@
     <Compile Include="Scolarité.Designer.cs">
       <DependentUpon>Scolarité.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Add_Infirmiér.resx">
       <DependentUpon>Add_Infirmiér.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +194,9 @@
     </Compile>
     <EmbeddedResource Include="Scolarité.resx">
       <DependentUpon>Scolarité.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
