@@ -39,6 +39,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel4
             // 
+            this.kryptonWrapLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.kryptonWrapLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel4.Location = new System.Drawing.Point(24, 165);
@@ -48,6 +49,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel2
             // 
+            this.kryptonWrapLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonWrapLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel2.Location = new System.Drawing.Point(458, 70);
@@ -66,7 +68,8 @@ namespace _PFE__Nurse_Management
             // 
             // guna2TextBox4
             // 
-            this.guna2TextBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2TextBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2TextBox4.Animated = true;
             this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox4.DefaultText = "";
@@ -110,7 +113,6 @@ namespace _PFE__Nurse_Management
             // 
             // guna2TextBox1
             // 
-            this.guna2TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2TextBox1.Animated = true;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox1.DefaultText = "";

@@ -243,5 +243,10 @@ namespace _PFE__Nurse_Management
             label6.BackColor = Color.FromArgb(0, 158, 251);
             label6.ForeColor = Color.FromArgb(255, 255, 255);
         }
+
+        private void guna2Shapes7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

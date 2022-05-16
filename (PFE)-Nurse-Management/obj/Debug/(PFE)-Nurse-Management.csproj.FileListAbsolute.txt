@@ -56,3 +56,4 @@ C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\_PFE__Nurse_Management.Coordonnées.resources
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\_PFE__Nurse_Management.Inscription.resources
 C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\_PFE__Nurse_Management.Scolarité.resources
+C:\Users\oussama\source\repos\(PFE)-Nurse-Management\(PFE)-Nurse-Management\obj\Debug\_PFE__Nurse_Management.basecontroladd.resources

@@ -41,6 +41,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel6
             // 
+            this.kryptonWrapLabel6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonWrapLabel6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel6.Location = new System.Drawing.Point(450, 148);
@@ -50,6 +51,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel4
             // 
+            this.kryptonWrapLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.kryptonWrapLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel4.Location = new System.Drawing.Point(36, 148);
@@ -68,6 +70,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel1
             // 
+            this.kryptonWrapLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonWrapLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel1.Location = new System.Drawing.Point(450, 61);
@@ -77,7 +80,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2TextBox4
             // 
-            this.guna2TextBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2TextBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.guna2TextBox4.Animated = true;
             this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox4.DefaultText = "";
@@ -99,7 +102,6 @@ namespace _PFE__Nurse_Management
             // 
             // guna2TextBox1
             // 
-            this.guna2TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2TextBox1.Animated = true;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox1.DefaultText = "";
@@ -121,7 +123,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2ComboBox3
             // 
-            this.guna2ComboBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2ComboBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -137,7 +139,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2ComboBox1
             // 
-            this.guna2ComboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2ComboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;

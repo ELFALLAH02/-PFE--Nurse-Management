@@ -67,6 +67,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel9
             // 
+            this.kryptonWrapLabel9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonWrapLabel9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel9.Location = new System.Drawing.Point(600, 188);
@@ -76,6 +77,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel8
             // 
+            this.kryptonWrapLabel8.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.kryptonWrapLabel8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel8.Location = new System.Drawing.Point(601, 114);
@@ -85,6 +87,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel7
             // 
+            this.kryptonWrapLabel7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.kryptonWrapLabel7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel7.Location = new System.Drawing.Point(313, 188);
@@ -94,6 +97,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel6
             // 
+            this.kryptonWrapLabel6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kryptonWrapLabel6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel6.Location = new System.Drawing.Point(313, 114);
@@ -103,6 +107,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel5
             // 
+            this.kryptonWrapLabel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.kryptonWrapLabel5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel5.Location = new System.Drawing.Point(26, 188);
@@ -112,6 +117,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel4
             // 
+            this.kryptonWrapLabel4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.kryptonWrapLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel4.Location = new System.Drawing.Point(26, 114);
@@ -121,6 +127,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel3
             // 
+            this.kryptonWrapLabel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonWrapLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel3.Location = new System.Drawing.Point(601, 38);
@@ -130,6 +137,7 @@ namespace _PFE__Nurse_Management
             // 
             // kryptonWrapLabel2
             // 
+            this.kryptonWrapLabel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.kryptonWrapLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.kryptonWrapLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.kryptonWrapLabel2.Location = new System.Drawing.Point(313, 40);
@@ -192,6 +200,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2TextBox4
             // 
+            this.guna2TextBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.guna2TextBox4.Animated = true;
             this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox4.DefaultText = "";
@@ -295,7 +304,7 @@ namespace _PFE__Nurse_Management
             // 
             // guna2ComboBox1
             // 
-            this.guna2ComboBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.guna2ComboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
