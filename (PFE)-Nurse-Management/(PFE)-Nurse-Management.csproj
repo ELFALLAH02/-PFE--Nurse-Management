@@ -117,7 +117,7 @@
     <Compile Include="Infirmiers.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Infirmiers.Designer.cs">
+    <Compile Include="Infirmiers.designer.cs">
       <DependentUpon>Infirmiers.cs</DependentUpon>
     </Compile>
     <Compile Include="infopresonnelles.cs">
